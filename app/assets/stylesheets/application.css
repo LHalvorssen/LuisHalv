@@ -13,3 +13,128 @@
  *= require_tree .
  *= require_self
  */
+
+  /*
+  #ffffff white
+ #314766 navy 
+ #4c7499 light navy
+ #7FB6FF baby blue
+ #FFE77F yellow 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -0.5px;
+    word-spacing: 1px;
+    width: 100vw;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.5em
+}
+
+h5{
+    font-size: 1.25em;
+}
+
+h6{
+    font-size: 1em
+}
+
+p{
+    font-size: .75em;
+}
+
+.title{
+    font-size: 10em;
+    opacity: 0.1;
+    z-index: -1;
+    text-align: right;
+    width: 100%;
+}
+/*--------------- Navigation bar ----------------*/
+
+ .navbar{
+    display: flex;
+    width: 100%;
+}
+
+.navbar .navbar-right ul{
+    justify-content: flex-end;
+}
+.navbar div ul{
+    display: flex;
+} 
+
+.navbar div ul li{
+    font-size: 1rem;
+    color: #7FB6FF; 
+    list-style: none;
+    text-decoration: none;
+    margin: 25px 10px;
+}
+
+.navbar a:link, 
+.navbar a:visited, 
+.navbar a:active {
+    text-decoration: none;
+    color: #314766;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid #7FB6FF;
+}
+
+.navbar-left, 
+.navbar-right {
+    width: 22%;
+    border: none;
+    font-size: 0.5em;
+ }
+ .navbar-left a:hover, 
+ .navbar-right a:hover{
+    border: none;
+ }
+ .navbar-center{
+    width: 50%;
+}
+
+.navbar div ul{
+    justify-content: space-evenly;
+}
+
+/* -----COMPONENTS ------ */
+.button{
+    background-color: #4c7499 ;
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 2%;
+    border-radius: 10px;
+    color: #FFE77F;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover{
+    background-color: #5a89b6 
+}
+

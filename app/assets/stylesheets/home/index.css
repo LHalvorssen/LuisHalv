@@ -1,0 +1,204 @@
+/* ------ Header -------- */
+
+.header{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    
+}
+
+.headshot{
+    width: 35%;
+    margin: 15px 80px;
+    height: 75vh;
+}
+
+.headshot img{
+    height: 100%;
+    width: 100%;
+    border: 30px solid #FFE77F;
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+.header-text{
+    width: 60%;
+    height: max-content;
+    margin: 60px 80px 60px 50px;
+    color: #314766;
+    top: 12%;
+    position: relative;
+}
+
+.header-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.header-text h5{
+    color: #7FB6FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-text p{
+    margin: 10px 0px;
+    line-height: 140%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9em;
+}
+
+.header-text li{
+   font-size: 1.15em;
+    margin: 15px 0px;
+    list-style: none;
+    color: #7FB6FF;
+}
+
+.header-text i {
+    margin-right: 10px;
+    color: #314766;
+    font-size: 1.3em;
+
+}
+
+/* ------ About Preview -------- */
+
+.about{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.about-text{
+    font-family:'Montserrat', sans-serif;
+    width: 40%;
+    margin-left: 2%; 
+    position: relative;
+    color: #314766;
+}
+
+.about-preview{
+    display: flex
+}
+
+.about-card{
+    background-color: #314766;
+	padding: 2%;
+	margin: 2%;
+	border: 2px solid #7FB6FF;
+	border-radius: 10px;
+	width: 33%;
+    text-align: center;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+    color: #7FB6FF;
+    font-size: 1.5em;
+}
+
+.about-card li{
+    display: none;
+    color: #FFE77F;
+    font-size: 1.15em;
+}
+
+.about-card:hover
+.card-title{
+    opacity: 0;
+    display: none;
+}
+
+
+.about-card:hover
+li{
+    opacity: 1.0;
+    display: block;
+}
+
+/* -------ACADEMICS PREVIEW------- */
+
+
+.academics{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.academics-text{
+    font-family:'Montserrat', sans-serif;
+    width: 63%;
+    margin-left: 2%; 
+    position: relative;
+    color: #314766;
+}
+
+.academics-text .subheading{
+    font-size: 3em;
+    font-style: italic;
+}
+
+.academics-text .subheading span{
+    color: #7FB6FF;
+}
+
+.academics-text .author{
+    font-size: 1.5em;
+}
+
+.bubbles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stakb, .belen{
+    margin: 2%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #314766;
+	border: 2px solid #7FB6FF;
+    border-radius: 10px; 
+}
+
+.stakb img, .belen img{
+    height: 150px;
+    width: 150px;
+}
+
+.achievements{
+	padding: 2%;
+	margin: 2%;
+	border: 2px solid #7FB6FF;
+	width: 33%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; 
+
+}
+
+.achievements h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #7FB6FF;
+    border-bottom: 3px solid #ffffff;
+}
+
+.achievements ul{
+    width: 100%;
+}
+
+.achievements li{
+    list-style: none;
+    color: #314766;
+    margin: 5%;
+    word-spacing: 1px;
+}

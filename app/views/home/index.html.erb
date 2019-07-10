@@ -1,1 +1,114 @@
-<h1>Welcome to my personal website!</h1>
+<div class="container">
+    <div class= "header">
+        <div class= "headshot">
+            <%= image_tag("headshot.jpg") %>
+        </div>
+        <div class= "header-text">
+            <h1>Luis Halvorssen</h1>
+            <h5>United States /
+                Venezuela /
+                Norway
+            </h5>
+
+            <p>My name is Luis Halvorssen. One of a kind, actually. This unique spelling of Halvorssen comes from Norway and I proudly represent my name in everything I do; and I do a lot. From playing goalkeeper in soccer, to tutoring young children, to even coding this very website. This drive that I have to do more stems mostly from my experiences growing up as a member of a big family. But also from my experience at my high school, Belen Jesuit Preparatory School, where we are always encouraged to strive for Magis. According to the Ignatian principles, Magis is a Latin word that means "more" or "greater". </p>
+        
+            <ul>
+                <li><i class="icon ion-ios-home"></i>Miami, FL</li>
+
+                <li><i class="icon ion-ios-call"></i>786-473-4023</li>
+                
+                <li><i class="icon ion-ios-mail"></i>LuisHalvorssen@gmail.com</li>
+            </ul>
+    
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class= "about">
+        
+            <h1 class="title">about</h1>
+
+            <div class="about-text">
+                <h1 class="heading"> this is me</h1>
+                <h4 class="subheading">I believe anybody's characteristics can be compartmentalized into 3 categories: </br> the physical, the mental, and the spiritual.</h4>
+            </div>
+
+
+        <div class="about-preview">
+           
+            <div class="about-card">
+                <h5 class="card-title">physical</h5>
+                <ul>
+                    <li>Male</li>
+                    <li>Born in Miami, FL</li>
+                    <li>Athlete</li>
+                    <li>6 ft.</li>
+                    <li>Deep-voice</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <h5 class="card-title">mental</h5>
+                <ul>
+                    <li>1400 PSAT</li>
+                    <li>5.25 GPA</li>
+                    <li>Bilingual</li>
+                    <li>Comuter Science Club</li>
+                    <li>DECA</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <h5 class="card-title">spiritual</h5>
+                <ul>
+                    <li>Practicing Catholic</li>
+                    <li>1 of 5 Children</li>
+                    <li>Jesuit School</li>
+                    <li>Community Service</li>
+                    <li>Open Minded</li>
+                </ul>
+            </div>
+        </div>
+        <%=link_to "about", "/", class: "button about-button" %> 
+    </div>
+</div>
+
+<div class="container">
+        <div class= "academics">
+            
+                <h1 class="title">academics</h1>
+                <div class="academics-text">
+                    <h4 class="subheading">An investment in <span>knowledge</span> pays the best interest</h4>
+                    <h6 class="author">-Benjamin Franklin</h6>
+                </div>
+
+        <div class="academics-preview">
+            <div class="bubbles">
+                <div class="animated fadeInLeftBig stakb">                    
+                    <%= image_tag("stakb.jpg") %>
+                    <h4>St. Agnes Academy</h4>
+                    <h5>Primary School</h5>
+                    <h6>Key Biscayne, FL</h6>
+                </div>
+
+                <div class=" animated fadeInUpBig achievements">
+                    <h2>achievements</h2>
+                    <ul>    
+                        <li>Presidential Honor Roll</li>
+                        <li>Academic Achievemnt Award</li>
+                        <li>3 Sport Student-Athlete</li>
+                        <li>National Honor Society</li>
+                        <li>5 AP Classes</li>
+                    </ul>
+                </div>
+
+                <div class="animated fadeInLeftBig belen">                    
+                    <%= image_tag("belen.png") %>
+                    <h4>Belen Jesuit </br>Preparatory School</h4>
+                    <h5>Secondary School</h5>
+                    <h6>Miami, FL</h6>
+                </div>
+            </div>
+            <%=link_to "academics", "/", class: "button about-button" %> 
+        </div>
