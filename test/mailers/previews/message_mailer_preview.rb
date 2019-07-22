@@ -1,6 +1,6 @@
 # Preview all emails at http://localhost:3000/rails/mailers/message_mailer
 class MessageMailerPreview < ActionMailer::Preview
-    # Preview this email at http://localhost:3000/rails/mailers/message_mailer/contact_me
+    # Preview this email at http://localhost:3000/rails/mailers/message_mailer/contact
     def contact
       message = Message.new name: 'marflar', 
                             email: 'marflar@example.org',
