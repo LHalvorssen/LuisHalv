@@ -138,3 +138,8 @@ p{
     background-color: #5a89b6 
 }
 
+input, textarea{
+    display: flex;
+    flex-direction: column;
+}
+
