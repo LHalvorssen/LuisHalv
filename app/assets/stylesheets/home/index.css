@@ -32,7 +32,7 @@
 
 .header-text h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    
 }
 
 .header-text h5{
@@ -70,10 +70,11 @@
 
 .about-text{
     font-family:'Montserrat', sans-serif;
-    width: 40%;
+    width: 60%;
     margin-left: 2%; 
     position: relative;
     color: #314766;
+    
 }
 
 .about-preview{
@@ -130,7 +131,7 @@ li{
 
 .academics-text{
     font-family:'Montserrat', sans-serif;
-    width: 63%;
+    width: 60%;
     margin-left: 2%; 
     position: relative;
     color: #314766;
@@ -202,3 +203,144 @@ li{
     margin: 5%;
     word-spacing: 1px;
 }
+
+
+/* --------WORK-------- */
+
+.work{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.work-text{
+    font-family:'Montserrat', sans-serif;
+    width: 60%;
+    margin-left: 2%; 
+    position: relative;
+    color: #314766;
+    font-size: 2em;
+}
+
+.people-text{
+    color: #7FB6FF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.work .bubbles{
+    display: flex;
+    flex-direction: column;
+}
+
+.code, .DJ, .tutor{
+    display: flex;
+    flex-direction: column;
+    color: #FFE77F;
+    margin: 1% 2%;
+    border: 2px solid #7FB6FF;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #314766;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.code i, .tutor i, .DJ i{
+    font-size: 2em; 
+    color: #FFE77F;
+}
+
+.work-preview h5{
+    color: #FFE77F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.work-preview h6{
+    color: #7FB6FF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.DJ{
+    margin-bottom: 2%;
+}
+
+/* -------INTERESTS PREVIEW --------- */
+
+.interests{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.interests-text{
+    font-family:'Montserrat', sans-serif;
+    width: 60%;
+    margin-left: 2%; 
+    position: relative;
+    color: #314766;
+    font-size: 2em;
+}
+
+.interests-preview .bubbles{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;
+}
+
+.interests-bubble{
+    text-align: center;
+    width: 33%;
+    margin-top: 1%;
+}
+
+
+.interests-bubble h4{
+    color: #7FB6FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.interests-bubble h5{
+    color: #314766;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.interests-bubble img{
+
+    border-radius: 100px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+#slideshow {
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    
+  }
+  
+  .slide-wrapper {
+    width: 600px;
+    -webkit-animation: slide 10s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+
+  @-webkit-keyframes slide {
+    30% {margin-left: 0px;}
+    40% {margin-left: -200px;}
+    60% {margin-left: -200px;}
+    70% {margin-left: -400px;}
+    80% {margin-left: -400px;}
+    90% {margin-left: -400px;}
+
+  
+  }
+  

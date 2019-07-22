@@ -75,13 +75,13 @@
 </div>
 
 <div class="container">
-        <div class= "academics">
-            
-                <h1 class="title">academics</h1>
-                <div class="academics-text">
-                    <h4 class="subheading">An investment in <span>knowledge</span> pays the best interest</h4>
-                    <h6 class="author">-Benjamin Franklin</h6>
-                </div>
+    <div class= "academics">
+        
+            <h1 class="title">academics</h1>
+            <div class="academics-text">
+                <h4 class="subheading">An investment in <span>knowledge</span> pays the best interest</h4>
+                <h6 class="author">-Benjamin Franklin</h6>
+            </div>
 
         <div class="academics-preview">
             <div class="bubbles">
@@ -110,5 +110,125 @@
                     <h6>Miami, FL</h6>
                 </div>
             </div>
-            <%=link_to "academics", "/", class: "button about-button" %> 
         </div>
+        <%=link_to "academics", "/", class: "button about-button" %> 
+    </div>
+</div>
+
+
+<div class="container">
+        <div class= "work">
+            
+                <h1 class="title">work</h1>
+                <div class="work-text">
+                    <h4 class="people">Elon Musk, Benjamin Franklin, and Naval Ravikant  </h4>
+                    <h6 class="people-text">Three people that inspire me </h6>
+                </div>
+    
+            <div class="work-preview">
+                <div class="bubbles">
+
+                     <div class="animated fadeInLeftBig code">                    
+                        <i class="icon ion-md-code"></i> 
+                        <h2>Code</h2>
+                        <h5>3 months working at Miami Dev Shop</h5>
+                        <h6>Learned languages such as Java, Ruby, HTML, CSS, and Javascript and built multiple apps and websites (such as this one)</h6>
+                    </div>
+
+                    <div class="animated fadeInLeftBig tutor">                    
+                        <i class="icon ion-md-book"></i>
+                        <h2>Tutor</h2>
+                        <h5>5 years of tutoring experience</h5>
+                        <h6>Helping students in Kindergarten through 10th grade with specific subjects and their homework in both English and Spanish </h6>
+                    </div>
+                    
+                    <div class="animated fadeInLeftBig DJ">                    
+                        <i class="icon ion-md-headset"></i>
+                        <h2>DJ</h2>
+                        <h5>Over 40 events in the past 3 years</h5>
+                        <h6>Meeting leaders in the industry such as Metro Boomin and Timbaland while also building my brand and clientele</h6>
+                    </div>
+                   
+                </div>
+            </div>
+            <%=link_to "work", "/", class: "button about-button" %> 
+        </div>
+    </div>
+
+<div class="container">
+    <div class= "interests">
+        
+            <h1 class="title">interests</h1>
+            <div class="interests-text">
+                <h4 class="heading">free time</h4>
+                <h6 class="header-sub">When I have the chance, </br> I like to divulge myself in theses activities</h6>
+            </div>
+
+        <div class="interests-preview">
+            <div class="bubbles">
+                <div class="interests-bubble sports">                    
+                        <div id="slideshow">
+                            <div class="slide-wrapper">
+                                <div class="slide"><%= image_tag("sports.1.jpg") %></div>
+                                <div class="slide"><%= image_tag("sports.2.jpg") %></div>
+                                <div class="slide"><%= image_tag("sports.3.jpg") %></div>
+                            </div>
+                        </div>
+                    <h4>Athletics</h4>
+                    <h5>Soccer, Volleyball, Golf</h5>
+                </div>
+
+                <div class="interests-bubble coding">                    
+                    <div id="slideshow">
+                        <div class="slide-wrapper">
+                            <div class="slide"><%= image_tag("coding.1.jpg") %></div>
+                            <div class="slide"><%= image_tag("coding.2.jpg") %></div>
+                            <div class="slide"><%= image_tag("coding.3.jpg") %></div>
+                        </div>
+                    </div>                    
+                    <h4>Coding</h4>
+                    <h5>Ruby on Rails, HTML, CSS</h5>
+                </div>
+
+                <div class="interests-bubble music">                    
+                    <div id="slideshow">
+                        <div class="slide-wrapper">
+                            <div class="slide"><%= image_tag("music.1.jpg") %></div>
+                            <div class="slide"><%= image_tag("music.2.jpg") %></div>
+                            <div class="slide"><%= image_tag("music.3.jpg") %></div>
+                        </div>
+                    </div>  
+                    <h4>Music</h4>
+                    <h5>Soulection, Bad Bunny, The Police</h5>
+                </div>
+
+                <div class="interests-bubble books">                    
+                    <div id="slideshow">
+                        <div class="slide-wrapper">
+                            <div class="slide"><%= image_tag("books.1.jpg") %></div>
+                            <div class="slide"><%= image_tag("books.2.jpg") %></div>
+                            <div class="slide"><%= image_tag("books.3.jpg") %></div>
+                        </div>
+                    </div>  
+                    <h4>Books</h4>
+                    <h5>Hemingway, Fitzgerald, Green</h5>
+                </div>
+
+                <div class="interests-bubble travel">                    
+                    <div id="slideshow">
+                        <div class="slide-wrapper">
+                            <div class="slide"><%= image_tag("travel.1.jpg") %></div>
+                            <div class="slide"><%= image_tag("travel.2.jpg") %></div>
+                            <div class="slide"><%= image_tag("travel.3.jpg") %></div>
+                        </div>
+                    </div>  
+                    <h4>Travel</h4>
+                    <h5>Venezuela, Switzerland, New York</h5>
+                </div>
+
+            </div>
+        </div>
+        <%=link_to "interests", "/", class: "button about-button" %> 
+    </div>
+</div>
+    
