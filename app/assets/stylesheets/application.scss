@@ -21,7 +21,9 @@
  #7FB6FF baby blue
  #FFE77F yellow 
  */
-
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ 
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +36,6 @@ body {
     word-spacing: 1px;
     width: 100vw;
 }
-
 h1{
     font-size: 3em;
 }

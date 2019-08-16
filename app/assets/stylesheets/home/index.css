@@ -10,7 +10,7 @@
 .headshot{
     width: 35%;
     margin: 15px 80px;
-    height: 75vh;
+    height: 75s svh;
 }
 
 .headshot img{
@@ -89,7 +89,7 @@
 	border-radius: 10px;
 	width: 33%;
     text-align: center;
-    height: 8rem;
+    height: 16rem;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -343,4 +343,19 @@ li{
 
   
   }
+
+/* -------Contact PREVIEW --------- */
+.contact{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.contact-text{
+    font-family:'Montserrat', sans-serif;
+    width: 60%;
+    margin-left: 2%; 
+    position: relative;
+    color: #314766;
+    font-size: 2em;
+}
   
