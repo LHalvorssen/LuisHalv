@@ -3,7 +3,7 @@
 <div class="container">
     <div class= "header">
         <div class= "headshot">
-            <%= image_tag("headshot.jpg") %>
+            <%= image_tag("realEstateAgent.JPG") %>
         </div>
         <div class= "header-text">
             <h1>Luis Halvorssen</h1>
@@ -26,15 +26,14 @@
     </div>
 </div>
 
+<h1 class="title">about</h1>
 <div class="container">
     <div class= "about">
-        
-            <h1 class="title">about</h1>
-
-            <div class="about-text">
-                <h1 class="heading"> this is me</h1>
-                <h4 class="subheading">I believe anybody's characteristics can be compartmentalized into 3 categories: </br> the physical, the mental, and the spiritual.</h4>
-            </div>
+    
+        <div class="about-text">
+            <h1 class="heading"> this is me</h1>
+            <h4 class="subheading">I believe anybody's characteristics can be compartmentalized into 3 categories: </br> the physical, the mental, and the spiritual.</h4>
+        </div>
 
 
         <div class="about-preview">
@@ -72,18 +71,18 @@
                 </ul>
             </div>
         </div>
-        <%=link_to "about", "/", class: "button about-button" %> 
+        <%=link_to "about", home_about_path, class: "button about-button" %> 
     </div>
 </div>
 
+<h1 class="title">academics</h1>
 <div class="container">
     <div class= "academics">
         
-            <h1 class="title">academics</h1>
-            <div class="academics-text">
-                <h4 class="subheading">An investment in <span>knowledge</span> pays the best interest</h4>
-                <h6 class="author">-Benjamin Franklin</h6>
-            </div>
+        <div class="academics-text">
+            <h4 class="subheading">An investment in <span>knowledge</span> pays the best interest</h4>
+            <h6 class="author">-Benjamin Franklin</h6>
+        </div>
 
         <div class="academics-preview">
             <div class="bubbles">
@@ -113,58 +112,57 @@
                 </div>
             </div>
         </div>
-        <%=link_to "academics", "/", class: "button about-button" %> 
+        <%=link_to "academics", home_academics_path, class: "button about-button" %> 
     </div>
 </div>
 
-
+<h1 class="title">work</h1>
 <div class="container">
-        <div class= "work">
-            
-                <h1 class="title">work</h1>
-                <div class="work-text">
-                    <h4 class="people">Elon Musk, Benjamin Franklin, and Naval Ravikant  </h4>
-                    <h6 class="people-text">Three people that inspire me </h6>
-                </div>
+    <div class= "work">
     
-            <div class="work-preview">
-                <div class="bubbles">
-
-                     <div class="animated fadeInLeftBig code">                    
-                        <i class="icon ion-md-code"></i> 
-                        <h2>Code</h2>
-                        <h5>3 months working at Miami Dev Shop</h5>
-                        <h6>Learned languages such as Java, Ruby, HTML, CSS, and Javascript and built multiple apps and websites (such as this one)</h6>
-                    </div>
-
-                    <div class="animated fadeInLeftBig tutor">                    
-                        <i class="icon ion-md-book"></i>
-                        <h2>Tutor</h2>
-                        <h5>5 years of tutoring experience</h5>
-                        <h6>Helping students in Kindergarten through 10th grade with specific subjects and their homework in both English and Spanish </h6>
-                    </div>
-                    
-                    <div class="animated fadeInLeftBig DJ">                    
-                        <i class="icon ion-md-headset"></i>
-                        <h2>DJ</h2>
-                        <h5>Over 40 events in the past 3 years</h5>
-                        <h6>Meeting leaders in the industry such as Metro Boomin and Timbaland while also building my brand and clientele</h6>
-                    </div>
-                   
-                </div>
-            </div>
-            <%=link_to "work", "/", class: "button about-button" %> 
+        <div class="work-text">
+            <h4 class="people">Elon Musk, Benjamin Franklin, and Naval Ravikant  </h4>
+            <h6 class="people-text">Three people that inspire me </h6>
         </div>
-    </div>
 
+        <div class="work-preview">
+            <div class="bubbles">
+
+                    <div class="animated fadeInLeftBig code">                    
+                    <i class="icon ion-md-code"></i> 
+                    <h2>Code</h2>
+                    <h5>3 months working at Miami Dev Shop</h5>
+                    <h6>Learned languages such as Java, Ruby, HTML, CSS, and Javascript and built multiple apps and websites (such as this one)</h6>
+                </div>
+
+                <div class="animated fadeInLeftBig tutor">                    
+                    <i class="icon ion-md-book"></i>
+                    <h2>Tutor</h2>
+                    <h5>5 years of tutoring experience</h5>
+                    <h6>Helping students in Kindergarten through 10th grade with specific subjects and their homework in both English and Spanish </h6>
+                </div>
+                
+                <div class="animated fadeInLeftBig DJ">                    
+                    <i class="icon ion-md-headset"></i>
+                    <h2>DJ</h2>
+                    <h5>Over 40 events in the past 3 years</h5>
+                    <h6>Meeting leaders in the industry such as Metro Boomin and Timbaland while also building my brand and clientele</h6>
+                </div>
+                
+            </div>
+        </div>
+        <%=link_to "work", home_work_path, class: "button about-button" %> 
+    </div>
+</div>
+
+<h1 class="title">interests</h1>
 <div class="container">
     <div class= "interests">
-        
-            <h1 class="title">interests</h1>
-            <div class="interests-text">
-                <h4 class="heading">free time</h4>
-                <h6 class="header-sub">When I have the chance, </br> I like to divulge myself in theses activities</h6>
-            </div>
+    
+        <div class="interests-text">
+            <h4 class="heading">free time</h4>
+            <h6 class="header-sub">When I have the chance, </br> I like to divulge myself in theses activities</h6>
+        </div>
 
         <div class="interests-preview">
             <div class="bubbles">
@@ -189,7 +187,7 @@
                         </div>
                     </div>                    
                     <h4>Coding</h4>
-                    <h5>Ruby on Rails, HTML, CSS</h5>
+                    <h5>Ruby on Rails, JavaScript, React.JS</h5>
                 </div>
 
                 <div class="interests-bubble music">                    
@@ -230,21 +228,20 @@
 
             </div>
         </div>
-        <%=link_to "interests", "/", class: "button about-button" %> 
+        <%=link_to "interests", home_interests_path, class: "button about-button" %> 
     </div>
 </div>
 
 
-
+<h1 class="title">contact</h1>
 <div class="container">
     <div class= "contact">
-        
-            <h1 class="title">contact</h1>
-            <div class="contact-text">
-                <h4 class="heading">contact me</h4>
-                <h6 class="header-sub">Whether you're just saying hi </br>or inquring for business</h6>
-            </div>
     
+        <div class="contact-text">
+            <h4 class="heading">contact me</h4>
+            <h6 class="header-sub">Whether you're just saying hi </br>or inquring for business</h6>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">

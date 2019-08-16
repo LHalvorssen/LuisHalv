@@ -8,9 +8,9 @@
 }
 
 .headshot{
-    width: 35%;
-    margin: 15px 80px;
-    height: 75s svh;
+    width: 40%;
+    margin: 60px 40px;
+    height: 70vh;
 }
 
 .headshot img{
@@ -18,7 +18,7 @@
     width: 100%;
     border: 30px solid #FFE77F;
     border-radius: 10px; 
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .header-text{
@@ -26,7 +26,7 @@
     height: max-content;
     margin: 60px 80px 60px 50px;
     color: #314766;
-    top: 12%;
+    top: 10%;
     position: relative;
 }
 
@@ -357,5 +357,9 @@ li{
     position: relative;
     color: #314766;
     font-size: 2em;
+}
+
+.contact .header-sub{
+    margin-bottom: 80px;
 }
   

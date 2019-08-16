@@ -57,7 +57,7 @@ h5{
 }
 
 h6{
-    font-size: 1em
+    font-size: 1.05em
 }
 
 p{
@@ -79,18 +79,23 @@ p{
 }
 
 .navbar .navbar-right ul{
-    justify-content: flex-end;
+    justify-content: center;
 }
+
 .navbar div ul{
     display: flex;
 } 
 
 .navbar div ul li{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #7FB6FF; 
     list-style: none;
     text-decoration: none;
     margin: 25px 10px;
+}
+
+.navbar-right li{
+    margin: 10px 30px;
 }
 
 .navbar a:link, 
@@ -103,17 +108,19 @@ p{
 .navbar a:hover{
     border-bottom: 1px solid #7FB6FF;
 }
-
-.navbar-left, 
-.navbar-right {
-    width: 22%;
+.navbar-left,
+.navbar-right{
+    width: 25%;
     border: none;
-    font-size: 0.5em;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+   
  }
  .navbar-left a:hover, 
  .navbar-right a:hover{
     border: none;
  }
+
  .navbar-center{
     width: 50%;
 }
@@ -142,5 +149,91 @@ p{
 input, textarea{
     display: flex;
     flex-direction: column;
+}
+
+/* -----footer ------ */
+.footer{
+    background-color: #314766;
+    margin: 0;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 1rem;
+    color: #fff;
+    font-style: italic; 
+    text-align: center;
+}
+
+.footer h6{
+    font-size: 1.5rem;
+    color: #FFE77F
+}
+
+.headerfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerfooter{
+    width: 100%;
+    display: flex;
+}
+
+.footerfooter .footerlogo{
+    width: 25%;
+    list-style: none;
+}
+
+.footerfooter .navbar-center{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.footerfooter .navbar-center ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.footerfooter .navbar-center li{
+    list-style: none;
+}
+
+.footerfooter .navbar-center a{
+    font-size: 1.3rem;
+    margin: 2px;
+    color: #fff;
+    
+}
+
+.footerfooter .medialinks{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footerfooter .medialinks ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.footerfooter .medialinks li{
+    list-style: none;
+    width: 15%;
+}
+
+.footerfooter .medialinks a{
+    font-size: 2rem;
+    color: #fff;
 }
 
